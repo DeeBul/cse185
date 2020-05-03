@@ -1,6 +1,6 @@
 load('att_face.mat');
 
-k = 20; % number of eigenfaces
+k = 50; % number of eigenfaces
 
 h = size(face_training, 1);
 w = size(face_training, 2);
