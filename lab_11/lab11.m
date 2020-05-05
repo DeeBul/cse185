@@ -74,6 +74,9 @@ for i = 1:n_test
     
 end
 
+% M = mean(error)
+
 %% compute accuracy
 accuracy = sum(id_testing == id_predict)/n_test;
 fprintf('Accuracy = %f\n', accuracy);
+fprintf('Squared Error = %f\n', mean(error));
